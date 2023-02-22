@@ -6,6 +6,9 @@ ruby "3.1.2"
 # Gem file for simple form added by me
 gem "simple_form", github: "heartcombo/simple_form"
 
+# Gem file for faker added by me
+gem 'faker'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4", ">= 7.0.4.2"
 
