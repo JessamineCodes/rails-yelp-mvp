@@ -10,11 +10,11 @@ Restaurant.destroy_all
 
 puts "Adding new food and pop joints..."
 5.times do
-  restaurant = Restaurant.new({
+  restaurant = Restaurant.new(
     name: Faker::DcComics.heroine,
     address: Faker::Address.street_address,
     phone_number: Faker::PhoneNumber.phone_number,
-    category: ["chinese", "italian", "japanese", "french", "belgian"].sample})
+    category: ["chinese", "italian", "japanese", "french", "belgian"].sample)
   restaurant.save
 end
 
